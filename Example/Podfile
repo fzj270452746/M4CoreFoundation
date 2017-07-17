@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'M4Core_Example' do
+  pod 'M4Core', :path => '../'
+
+  target 'M4Core_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
