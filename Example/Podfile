@@ -7,8 +7,15 @@ target 'M4Core_Example' do
     inherit! :search_paths
 
     pod 'Specta'
+  
   pod 'Expecta'
   pod 'FBSnapshotTestCase'
   pod 'Expecta+Snapshots'
+  pod 'MJRefresh'
+  #Base Libs
+  pod 'AFNetworking'
+  pod 'YYModel'
+  pod 'YYWebImage'
+  pod 'YYCategories'
   end
 end

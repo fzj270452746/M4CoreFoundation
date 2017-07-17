@@ -1,0 +1,6 @@
+framework module M4CoreFoundation {
+  umbrella header "M4CoreFoundation.h"
+
+  export *
+  module * { export * }
+}
