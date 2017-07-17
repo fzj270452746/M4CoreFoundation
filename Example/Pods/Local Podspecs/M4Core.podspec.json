@@ -1,9 +1,9 @@
 {
   "name": "M4Core",
   "version": "0.1.0",
-  "summary": "A short description of M4Core.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/270452746@qq.com/M4Core",
+  "summary": "M4CLibrary use for company projects.",
+  "description": "M4CLibrary use for company projects.",
+  "homepage": "https://github.com/fzj270452746/M4Core",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,35 @@
     "270452746@qq.com": "270452746@qq.com"
   },
   "source": {
-    "git": "https://github.com/270452746@qq.com/M4Core.git",
+    "git": "https://github.com/fzj270452746/M4CoreFoundation.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "M4Core/Classes/**/*"
+  "source_files": "M4Core/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "WebKit",
+    "QuartzCore",
+    "MobileCoreServices"
+  ],
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "YYCategories": [
+
+    ]
+  }
 }
